@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Chủ đề chính của ứng dụng -->
+    <style name="Theme.StudentManager" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Màu nền của ứng dụng -->
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <!-- Màu thanh trạng thái -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!-- Màu của ActionBar -->
+        <item name="android:actionBarStyle">@style/Widget.AppCompat.Light.ActionBar</item>
+    </style>
+
+    <!-- Widget ActionBar -->
+    <style name="Widget.AppCompat.Light.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- Màu sắc của các thành phần trong giao diện -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+</resources>
